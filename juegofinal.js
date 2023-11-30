@@ -34,6 +34,7 @@ function GameCard (nickname, lives, cardValue) {
     };
 }
 
+// Funcion para saber el ganador
 function determineWinner (player1, player2) {
     if(player1.lives === 0 && player2.lives === 0) {
         alert("Es un empate. Ambos jugadores se quedaron sin vidas.");
